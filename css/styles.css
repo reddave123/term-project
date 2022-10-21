@@ -112,7 +112,6 @@
     background-size: 500px;
     width: 500px;
     background-repeat: no-repeat;
-    bac
 }
 
 
@@ -121,13 +120,13 @@
 .bx1 h3{
     margin-left: 140px;
     font-size: 20px;
-    color: bisque;
+    color: rgb(235, 229, 222);
     text-transform: uppercase;
 }
 .bx1 a{
     margin-left: 140px;
     font-size: 20px;
-    color: bisque;
+    color: rgb(236, 233, 229);
     text-transform: uppercase;
 }
 /*not done*/
@@ -136,11 +135,10 @@
 /*Products */
 /*Menu*/
 .text{  
-    color: #513B1C;
+    color: #b48a4f;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-style: oblique;
     font-size: 25px;
     margin-top: 40px;
     flex-wrap: wrap;     
@@ -178,7 +176,6 @@ hr {
     background-size: cover;
     background-color: black;
     border-color: #513B1C;
-    border: 5px solid;
     margin-bottom: 15px;
     
 }
@@ -261,4 +258,115 @@ hr {
     color: rgb(131, 87, 87);    
     background-color: white;
     font-weight: bolder;   
+}
+/*off products*/
+.sector{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;   
+}
+.sec{
+    margin: 15px;
+    width: 270px;
+}
+.inner-sec{
+    margin-bottom: 15px;
+    background-size: cover;  
+    height: 300px;
+    background-color: rgb(131, 109, 77);
+}
+.image4{
+    background-image: url(../images/product1.jpg);
+}
+.image5{
+    background-image: url(../images/product2.jpg);
+}
+.image6{
+    background-image: url(../images/product3.jpg)
+}
+.image7{
+    background-image: url(../images/product4.jpg)
+}
+.sec p{
+    padding: 10px;
+}
+.text1{   
+    font-size: 25px;
+    font-style: unset;
+    color: rgb(223, 193, 119);
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-weight: 500;
+    opacity: 1;
+    display: flex;
+}
+.h2-tag1{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Ultra', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #412d11;
+    
+}
+hr {
+    position: relative;
+    top: 20px;    
+    margin-left: 800px;
+    background: rgb(56, 41, 41);
+    margin-right: 800px;
+    margin-bottom: 50px;
+    height: 12px;
+    border: none;   
+}
+/*Ads 2*/
+.container4{
+    display: flex;  
+    margin-top: 45px;
+    flex-wrap: wrap;
+    position: relative;  
+    justify-content: center;
+}
+.box4{
+    margin: 30px;
+    width: 30vw;
+}
+.inner-box4{
+    margin-bottom: 15px;
+    background-size: cover;   
+    height: 300px;
+    background-color: rgb(46, 42, 42);
+}
+.image13{
+    background-image: url(../images/merchandise3.jpg);
+}
+.image14{
+    background-image: url(../images/merchandise4.jpg);
+}
+.image15{
+    background-image: url(../images/merchandise5.jpg);
+}
+.image16{
+    background-image: url(../images/merchandise6.jpg);
+}
+.box4 h3{
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.box4 a{
+    
+    color: rgb(243, 235, 235);
+    text-decoration: none;
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 15px;
+    
 }
