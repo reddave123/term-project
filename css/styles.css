@@ -28,10 +28,103 @@
     height: 3px;
 } 
 .header h1{
+    float: left;
     font-size: 50px;
     font-weight: 800;
     font-family: 'Black Han Sans', sans-serif;
     color: rgb(17, 17, 16);
     margin-left: 40px;
     
+}
+/*main sec */
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bx{
+    background-color: white;
+    width: 100vw;
+}
+.inbox{
+    height: 500px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.img1{
+    background-image: url(../images/atf-image.jpg);
+    image-resolution: 300dpi;
+}
+.bx h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 70px;
+    margin-left: 70px;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+
+    
+}
+.bx span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    color: rgba(154, 235, 167, 0.651);
+}
+.bx p{
+    margin-top: -50px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: bisque;
+}
+.bx a{
+    background-color: rgb(56, 24, 24);
+    color: white;
+    padding: 15px 15px;
+    margin-left: 140px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.banner1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.bx1{
+    background-color: white;
+    width: 630px;
+    margin: 20px;
+    transition: 0.3s;
+}
+.inbox1{
+    height: 250px;
+    margin: 20px;
+    background-size: cover;
+    border: 15px solid;
+}
+.img2{
+    background-image: url(../images/merchandise1.jpg);
+    background-size: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(../images/merchandise2.jpg);
+    background-size: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
+.bx1 p{
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: 600;
+    color: white;
+    font-family: tahoma;
+    text-transform: uppercase;
+}
+.bx1 a{
+    margin-top: 40px;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 18px;
 }
