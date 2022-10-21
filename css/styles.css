@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .bx1{
     background-color: white;
@@ -117,17 +117,23 @@
 
 
 /*notdone*/
-.bx1 h3{
-    margin-left: 140px;
+/*done*/
+.bx1 p{
     font-size: 20px;
-    color: rgb(235, 229, 222);
+    font-weight: 600;
+    color: white;
+    font-family: tahoma;
     text-transform: uppercase;
+    margin-right: 20px;
 }
 .bx1 a{
-    margin-left: 140px;
-    font-size: 20px;
-    color: rgb(236, 233, 229);
-    text-transform: uppercase;
+        margin-top: 40px;
+        color: white;
+        margin-left: 40px;
+        font-size: 18px;
+        text-decoration: none;
+        align-content: center;
+        justify-content: center;
 }
 /*not done*/
 
@@ -369,4 +375,222 @@ hr {
     font-size: 20px;
     padding: 15px;
     
+}
+/*Reservation Form*/
+.form h1{
+    color: black;
+    padding: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-size: 50px;
+    text-decoration: none;   
+}
+hr {
+    position: relative;
+    top: 20px;    
+    margin-left: 800px;
+    height: 12px;
+    border: none;   
+    background: rgb(56, 41, 41);
+    margin-right: 800px;  
+    margin-bottom: 50px;    
+}
+.inner-form{   
+    position: relative;
+    border-style: dashed;   
+    width: 35%;
+    background-color: #e4dece;
+    border-radius: 5px;
+    margin-top: 10%;   
+    margin-left: 10%;
+    border: solid;
+    float: left;    
+}
+.inner-form label {    
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    margin-left: 20px;
+    font-family: tahoma;
+    width: 90px;
+    margin: 1cm;
+}
+.inner-form input {
+    padding: 10px;
+    color: black;
+    width: 500px;    
+    border: 3px solid black;
+    font-size: 16px;
+    border-radius: 10px;    
+}
+.radio {
+    float: right;
+}
+.inner-form1{
+   
+    position: relative;
+    height: 50pc;
+    border-radius: 5px;
+    border-style: dashed;
+    border: solid;
+    width: 35%;
+    background-color: #e4dece;
+    float: left;
+    margin-left: 10%;    
+    margin-top: 10%;    
+}
+.inner-form1 h2 {
+    font-style: inherit;
+    
+}
+.inner-form1 label {    
+    font-weight: bold;
+    margin-left: 40px;
+    width: 150px;
+    margin-top: 30px;
+    font-family: tahoma;
+    position: relative;
+    font-size: 22px;    
+}
+.inner-form1 input {
+    position: relative;
+    width: 500px;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.inner-form1 p{
+    font-size: 25px;
+    font-family: tahoma;    
+    position: relative;
+    text-align: center;
+}
+.inner-form1 textarea {
+    margin-left: 20px;
+}
+.send{
+    
+    display: block;
+    outline: none;
+    background-color: rgb(38, 199, 38);
+    font-size: 1em;
+    padding: 10px 0;
+    cursor: pointer;
+    margin: 15px auto 15px;
+    width: 80%;
+    background: transparent;
+    color: black;    
+}
+.outer-footer{
+    margin-top: 50px;
+    display: inline-block;
+}
+.footer-box{
+    width: 100vw;
+    margin-left: 20px;
+}
+.footer-innerbox{
+    width: 100%;   
+    padding: 10px 12px;
+    background-size: cover;
+}
+.image17{
+    background-image: url(../images/footer-img.jpg);
+}
+.table1{
+    color: white;
+    margin-left: 40px;
+    float: none;
+    margin: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    padding: 15px;
+    
+}
+.contact{
+    display: inline-block;   
+    justify-content: center;
+    align-items: center;
+    vertical-align: bottom;
+    margin: 30px;
+    margin-top: auto;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+#search{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.button1{
+    font-size: 20px;
+    background-color: #353332;
+    border-radius: 5px;
+}
+span{    
+    font-weight: 600;
+    font-family: arial;
+    font-size: 18px;
+}
+.locations{    
+    position: relative;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    vertical-align: bottom;
+    justify-content: center;
+    display: inline-block;
+    color: white;
+    padding: 10px;   
+}
+/*Footer and Contact Us*/
+/*It contain links for my Information*/
+.footer{
+    text-transform: uppercase;
+    margin-top: -10px;
+    background-color: #000;
+    
+}
+.footer .inner-footer{   
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.footer .inner-footer a{
+    font-size: 2.1rem;
+    color: inherit;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 40%;
+    margin: 20px;
+
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.8rem;    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{    
+    margin-top: 15px;
+    font-size: 12px;
+    color: white;
+    text-align: center;   
 }
