@@ -40,16 +40,17 @@
                 <div class="bx1">
                         <div class="inner-box img2">
                                 <br><br><br>
-        <h3>New Coffee<br>Flavors</h3>
+        <p>New Coffee<br>Flavors</p>
                                 <br><br>
                 <a href="read more">Read More</a>
         </div>  
                 </div> 
                         <div class="bx1">
-                        <div class="inner-box img3"></div>
-                <h3>This Friday 25% Off</h3>
+                        <div class="inner-box img3">
+                <p>This Friday 25% Off</p>
                 <br><br>
-                <a href="read more">Read More</a>    
+                <a href="read more">Read More</a>   
+                </div> 
            </div>                     
         </div>
     </div>
@@ -201,52 +202,57 @@
     </div>
     <br><br><br>
         <!--reservation section-->        
-        <h2>Reservation Form</h2>
-    </div>
-    <hr>
-    <form action="">
-        <div class="innerform">
-            <center><label for="name">Name</label></center>
-            <input type="text" placeholder="Last Name, First Name" 
-            name="name" size="30" id="first-name">
-            
-            <center><label for="email">Email Address</label></center>
-            <input type="text" placeholder="mail@mail.com" 
-            name="name" size="30" id="mail@mail.com">
-
-            <center><label for="phone number">Phone Number</label></center>
-            <input type="text" placeholder="(Area Code) 123456789" 
-            name="name" size="30" id="(Area Code) 123456789">
-            <label for="reservation">Reservation Details</label>
-                <center><select name="reservation" id="reservation">
-                        <option value="1 person table">1 person table</option>
-                        <option value="2 person tables">2 person table</option>
-                        <option value="3 person table">3 person table</option>
-                </select></center>
-        <center><label for="date">Reservation Date</label></center>
-                <input type="date">
-                <br>
-                <input type="radio" name="name" id="time">Morning
-                <input type="radio" name="name" id="time">Afternoon
-        <br>
+        <div class="form">
+        <center><h1>Reservation Form</h1></center>
         </div>
-        </form>
+        <hr>
+        <a id="reservation"></a>
+
+        <form action="">
+                <div class="inner-form">
+                <label for="name">Full Name:</label>
+                <input type="text" placeholder="Name" name="name" id="name">
+                     <label for="email">Email Address:</label>
+                <input type="email" placeholder="Email" name="email"  id="email">
+                     <label for="contact number">Phone Number:</label>
+                     <input type="number" placeholder="Number" name="contact number" id="contact">
+                <label for="reservation details">Reservation Details:</label>
+               <select name="details" id="reservation">
+                    <option value="table1">1 Person Table</option>
+                    <option value="table2">2 Person Table</option>
+                    <option value="table3">3 Person Table</option>
+                </select>
+                <br>
+                <label for="date">Reservation Date:</label>
+                <input type="date" name="date" id="date">
+                <br>
+                <br>
+               <input type="radio" class="radio" name="choices"><span>Morning</span>
+               <br>
+                <input type="radio" class="radio" name="choices"><span>Afternoon</span>
+                <br><br>
+                </div>
+            </form>
         <form action="">
                 <div class="inner-form1">
                 <br><br>
-                <center><label for="additional request">Additional Request:</label></center>
-                <textarea name="additional requests" id="" cols="30" rows="10"></textarea>
+                <label for="additional request">Additional Request:</label>
+                <textarea name="additional requests" id="" cols="50" rows="20"></textarea>
                 <br>
-                <h2>Payment</h2>
+                <center><h2>Payment</h2></center>
                 <p>Payment Accepted Cards<br>cards</p>
                 <br>
                 <br>
                 <label for="credit card name">Credit Card Name</label>
                 <input type="text" placeholder="John Doe" name="name" id="credit card name">
+                <br>
                 <label for="credit card number">Credit Card Number</label>
                 <input type="text" placeholder="123456789" name="name" id="credit card number">
-                <input type="checkbox" name="name" id="agreement">I agree Lorem ipsum dolor sit amet.
-                <button>Send</button>
+                <br>
+                <br>
+                <input type="checkbox">
+                <center><h2>"I agree lorem ipsum."</h2></center>
+                <button class="send">Send</button>
                 </div>
             </form>
             <div class="outer-footer">
@@ -352,11 +358,13 @@
                         <br>
                         <h1>Coffee Bean</h1>
                         <br><br>
-                        <a href="twitter">Twiiter</a>
-                        <a href="insta">Instagram</a>
-                        <a href="fb">Facebook</i></a>
-                        <a href="tumblr">Tumblr</a>
-                        <a href="linkedin">LinkedIn</i></a>
+                        <ul>
+                        <li><a href="twitter">Twiiter</a></li>
+                        <li><a href="insta">Instagram</a></li>
+                        <li><a href="fb">Facebook</i></a></li>
+                        <li><a href="tumblr">Tumblr</a></li>
+                        <li><a href="linkedin">LinkedIn</a></li>
+                        </ul>
                     </div>
                     <p class="copyright">
                         © All Right Reserve 2022
