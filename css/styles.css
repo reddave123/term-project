@@ -45,7 +45,7 @@
     background-color: white;
     width: 100vw;
 }
-.inbox{
+.inner-box{
     height: 500px;
     margin-bottom: 15px;
     background-size: cover;
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .bx1{
     background-color: white;
@@ -95,7 +95,7 @@
     margin: 20px;
     transition: 0.3s;
 }
-.inbox1{
+.inner-box1{
     height: 250px;
     margin: 20px;
     background-size: cover;
@@ -112,19 +112,105 @@
     background-size: 500px;
     width: 500px;
     background-repeat: no-repeat;
+    bac
 }
-.bx1 p{
+
+
+
+/*notdone*/
+.bx1 h3{
+    margin-left: 140px;
     font-size: 20px;
-    margin-left: 50px;
-    font-weight: 600;
-    color: white;
-    font-family: tahoma;
+    color: bisque;
     text-transform: uppercase;
 }
 .bx1 a{
+    margin-left: 140px;
+    font-size: 20px;
+    color: bisque;
+    text-transform: uppercase;
+}
+/*not done*/
+
+
+/*Products */
+/*Menu*/
+.text{  
+    color: #513B1C;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: oblique;
+    font-size: 25px;
     margin-top: 40px;
-    color: white;
-    padding: 15px 15px;
-    margin-left: 40px;
-    font-size: 18px;
+    flex-wrap: wrap;     
+}
+.h2-tag h2{
+    color: #513B1C;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: arial;
+    text-transform: uppercase;    
+}
+hr {
+    margin-right: 800px;
+    margin-left: 800px;
+    background: rgb(56, 41, 41);
+    margin-bottom: 50px;
+    height: 12px;
+    border: none;
+    position: relative;
+    top: 20px;    
+}
+.container2{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;    
+}
+.box2{
+    margin: 30px;
+    width: 270px;
+}
+.inner-box2{   
+    height: 300px;
+    background-size: cover;
+    background-color: black;
+    border-color: #513B1C;
+    border: 5px solid;
+    margin-bottom: 15px;
+    
+}
+.image4{
+    background-image: url(../images/product1.jpg);
+}
+.image5{
+    background-image: url(../images/product2.jpg);
+}
+.image6{
+    background-image: url(../images/product3.jpg);
+}
+.image7{
+    background-image: url(../images/product4.jpg);
+}
+.image8{
+    background-image: url(../images/product5.jpg);
+}
+.image9{
+    background-image: url(../images/product6.jpg);
+}
+.image10{
+    background-image: url(../images/product7.jpg);
+}
+.image11{
+    background-image: url(../images/product8.jpg);
+}
+.box2 h3 {
+    padding: 10px;
+    color: black;
+}
+.box2 p{
+    padding: 10px;
+    color: bisque;
 }
